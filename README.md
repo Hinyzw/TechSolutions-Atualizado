@@ -1,1 +1,1 @@
-https://hinyzw.github.io/TechSolutions/
+https://hinyzw.github.io/TechSolutions-Atualizado/
