@@ -1,0 +1,88 @@
+/* Resetando margens e preenchimentos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.3) url('pexels-cax0000-2065850.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Estilo do título */
+h1 {
+    margin-bottom: 20px;
+    color: #ffff;
+    text-align: center;
+}
+
+/* Estilo da caixa do formulário */
+.caixa {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Estilo do fieldset */
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Estilo da legenda */
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Estilo dos labels e inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px); /* 100% largura menos padding e bordas */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+input[readonly] {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+/* Estilo para quando o input está focado */
+input:focus {
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.2);
+}
+
+/* Margens para o final do formulário */
+form {
+    margin: 0;
+}
+
+/* Ajustes finais para o layout */
+br {
+    display: none; /* Remove os quebras de linha para melhor controle do layout */
+}

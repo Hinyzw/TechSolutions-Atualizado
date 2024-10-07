@@ -1,0 +1,13 @@
+{
+    "imagem": "<img src= 'IMGs/k12.jpg'>",
+    "nome": "K-12 Full Album",
+    "preco": "R$ 600,00",
+
+    "imagem2": "<img src= 'IMGs/crybaby.jpg'>",
+    "nome2": "Cry Baby Full Album",
+    "preco2": "R$ 520,00",
+
+    "imagem3": "<img src= 'IMGs/k12g.jpg'>",
+    "nome3": "K-12 Show and Tell",
+    "preco3": "R$ 130,00"
+}

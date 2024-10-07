@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0f1923;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ff4655;
+    font-size: 3rem;
+    margin-top: 20px;
+    text-shadow: 0 0 5px rgba(255, 70, 85, 0.8);
+}
+
+#imagem {
+    margin: 20px auto;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#imagem img {
+    width: 300px; /* Tamanho desejado */
+    height: auto; /* Mantém a proporção */
+    border-radius: 10px; /* Para um estilo mais bonito */
+}
+
+button {
+    background-color: #ff4655;
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #d33b4d;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 70, 85, 0.5);
+}
+
+#habilidades {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin: 20px auto; 
+    padding: 0 10px; 
+}
+
+.habilidade {
+    display: flex;
+    align-items: center;
+    margin: 10px; 
+    text-align: center; 
+}
+
+.icone-habilidade {
+    width: 40px; 
+    height: auto; 
+    margin-right: 8px;
+}
